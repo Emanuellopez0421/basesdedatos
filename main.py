@@ -5,7 +5,7 @@ from datetime import datetime
 app = FastAPI()
 
 # conexión MongoDB Atlas
-MONGO_URI = "mongodb+srv://esp32:esp32pass@cluster0.fbacjvy.mongodb.net/iot"
+MONGO_URI = "mongodb+srv://esp32:esp32pass@tecemmanuel.fbacjvy.mongodb.net/iot"
 
 client = MongoClient(MONGO_URI)
 db = client.iot
